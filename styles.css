@@ -1,0 +1,145 @@
+body{
+  background-color: #BA55D3;
+
+}
+h1{
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 3.5rem;
+  line-height: 1;
+  color: #FFF8DC;
+  padding-top: 30px;
+}
+h2{
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family:Comic Sans MS;
+}
+h3{
+  font-family: Franklin Gothic Medium;
+  font-size: 1.5rem;
+}
+p{
+  color: #8F8F8F;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+right: 30%;
+}
+.navbar{
+  padding-bottom: 0 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: Bradley Hand, cursive;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+
+  font-family:cursive;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  padding:5%;
+  text-align:center;
+}
+.icon{
+  color:#EE82EE ;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #BA55D3;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #EE82EE;
+  color: black;
+
+}
+.testimonial-text{
+  color:white;
+}
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+padding: 7% 15%;
+}
+#press{
+    background-color: #EE82EE;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+#pricing{
+  background-color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-text{
+  font-family: Franklin Gothic Medium;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.pricing-paragraph{
+  font-family: Gabriola;
+  font-size: 2rem;
+}
+#cta{
+  background-color:#BA55D3;
+  color: #FFF8DC;
+  padding: 7% 15%;
+}
+.cta-heading{
+
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+    font-family: Gabriola;
+  text-align: center;
+
+}
+#footer{
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  color: #EE82EE;
+  margin: 20px 10px;
+}
+@media (max-width : 1028px)  {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
