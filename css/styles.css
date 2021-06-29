@@ -138,6 +138,7 @@ padding: 7% 15%;
     text-align: center;
   }
   .title-image{
+    width:40%;
     position: static;
     transform: rotate(0);
   }
